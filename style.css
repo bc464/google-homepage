@@ -1,0 +1,216 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100vh;
+}
+body {
+	font-family: sans-serif;
+}
+.mainNavbar {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.navbar a {
+	text-decoration: none;
+	padding: 10px;
+	color: gray;
+}
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+.mainLogo {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.search-icon {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.mainSearch {
+	border: 1px solid lightgray;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 45px;
+	margin-bottom: 40px;
+	width: 50%;
+}
+.googleSearch {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.googleSearch span {
+	padding: 10px 20px;
+	text-align: center;
+	background-color: lightgray;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.googleSearch span:hover {
+	border:  1px solid gray;
+}
+.container3 {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.googleOffered {
+	margin-left: 50px;
+	
+}
+.googleOffered a {
+	text-decoration: none;
+	padding: 10px;
+
+}
+.googleOffered a:hover {
+	text-decoration: underline;
+}
+footer {
+	background-color: rgb(218, 220, 224);
+	height: auto;
+	margin-top: 200px;
+}
+.location {
+	padding-left:  20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: gray;
+	font-size: 16px;
+}
+hr {
+	color: lightgray;
+}
+.container4 {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+
+}
+
+.footerNavbar a {
+	text-decoration: none;
+	color: gray;
+	padding-right: 10px;
+	
+}
+.footerNavbar a:hover {
+	text-decoration: underline;
+}
+.leavePicture {
+	width: 20px;
+	height: 20px;
+	
+
+}
+.nav2 {
+	display: flex;
+	justify-content: center;
+}
+	
+
+.nav3 {
+	display: flex;
+	justify-content: flex-end;
+}
+.footerNavbar2 {
+	display: flex;
+}
+.footerNavbar2 a {
+	text-decoration: none;
+	color: gray;
+	padding-right: 10px;
+}
+.footerNavbar2 a:hover {
+	text-decoration: underline;
+}
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: gray;
+	font-family: inherit;
+	margin: 0;
+}
+
+.moreOptions {
+	display: none;
+	position: fixed;
+	background-color:white;
+	border: 1px solid black;
+	min-width: 160px;
+	bottom: 45px;
+	right: 10px;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.moreOptions a {
+	float: none;
+	color: gray;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown:hover .moreOptions {
+	display: block;
+}
+
+@media only screen and (max-width:  500px) {
+	.container3 {
+		justify-content: flex-start;
+	}
+	.mainSearch {
+		width: 100%;
+	}
+	.googleOffered {
+		margin-left: 2px;
+	}
+	.container4 {
+		display: flex;
+		flex-direction: column;
+		align-items: space-between;
+		
+	}
+	
+	.nav1 {
+		justify-content: center;
+		order: 2;
+		padding: 10px;
+
+	}
+	.nav2 {
+		order: 1;
+		padding: 10px;
+
+	}
+	.nav3 {
+		justify-content: center;
+		order: 3;
+		padding:  10px;
+	}
+	.moreOptions {
+		bottom: 30px;
+	}
+	
+		
+	footer {
+		margin-top: 45px;
+	}
+}
+
+

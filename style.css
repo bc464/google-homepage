@@ -201,6 +201,9 @@ hr {
 		padding: 10px;
 
 	}
+	.carbon {
+		margin-right: 1px;
+	}
 	.nav3 {
 		justify-content: center;
 		order: 3;

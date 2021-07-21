@@ -83,7 +83,7 @@ body {
 footer {
 	background-color: rgb(218, 220, 224);
 	height: auto;
-	margin-top: 200px;
+	margin-top: 180px;
 }
 .location {
 	padding-left:  20px;
@@ -120,6 +120,9 @@ hr {
 .nav2 {
 	display: flex;
 	justify-content: center;
+}
+.carbon {
+	margin-right: 180px;
 }
 	
 
